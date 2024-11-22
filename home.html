@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aquelarre | SENA</title>
+    <link rel="stylesheet" href="./home.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap');
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="header-logo">
+            <img src="./assets/logo-aquellare-app.png" alt="logo-aquelarre">
+            <h1>Aquelarre</h1>
+        </div>
+        <div class="header-search-bar">
+            <input type="search" placeholder="# palabra clave">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#333333"
+                stroke-linecap="round" stroke-linejoin="round" width="24" height="24" stroke-width="2">
+                <path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0"></path>
+                <path d="M21 21l-6 -6"></path>
+            </svg>
+        </div>
+        <div class="header-options">
+            <a href="./register.html">Registrarse</a>
+            <button id="openModal">Crear Post</button>
+            <a href="./signup.html">Iniciar Sesion</a>
+        </div>
+    </header>
+
+
+    <div id="myModal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="input-info-container">
+                <input type="text" placeholder="Titulo">
+                <input type="text" placeholder="etiqueta #">
+            </div>
+            <div class="box-text">
+                <textarea  placeholder="que nos quieres contar.." name="create-text-box" id="create-text-box"></textarea>
+                <button><svg xmlns="http://www.w3.org/2000/svg" x-bind:width="size" x-bind:height="size"
+                        viewBox="0 0 24 24" fill="currentColor" width="18" height="18">
+                        <path d="M6 4v16a1 1 0 0 0 1.524 .852l13 -8a1 1 0 0 0 0 -1.704l-13 -8a1 1 0 0 0 -1.524 .852z">
+                        </path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+    <section>
+        <h2>Foro</h2>
+        <div class="post-home-container" <div>
+            <div class="header-post">
+                <h3>Titulo</h3>
+                <h4>@usuario</h4>
+            </div>
+            <p>parrafo</p>
+            <div class="hashtag-button">
+                <span>#hola</span>
+                <a href="./post.html">Entrar al post
+                    <svg xmlns="http://www.w3.org/2000/svg" x-bind:width="size" x-bind:height="size" viewBox="0 0 24 24"
+                        fill="currentColor" width="18" height="18">
+                        <path d="M6 4v16a1 1 0 0 0 1.524 .852l13 -8a1 1 0 0 0 0 -1.704l-13 -8a1 1 0 0 0 -1.524 .852z">
+                        </path>
+                    </svg>
+
+                </a>
+
+
+            </div>
+        </div>
+
+    </section>
+    <footer>
+        <span> Aprendiz: <a href="https://github.com/1Tai7">Ilce Garcia</a>
+        </span>
+    </footer>
+</body>
+<script src="./home.js"></script>
+
+</html>

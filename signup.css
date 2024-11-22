@@ -1,0 +1,106 @@
+* {
+  font-family: "Happy Monkey", system-ui;
+  margin: 0;
+}
+body {
+  background-color: #6a49bf;
+  color: #ffffff;
+  background-image: url("./assets/fondo-aquellare-app.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  height: 99vh;
+  box-sizing: border-box;
+
+  padding-inline: 2rem;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-logo {
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  text-decoration: none;
+}
+.header-logo img{
+  width: 5rem;
+}
+
+
+/* signup */
+.register-body {
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+}
+.body-register {
+  background-color: #f8f8ffd6;
+  color: #333333;
+  border-radius: 1rem;
+  padding: 1rem;
+  width: 20rem;
+  height: 70vh;
+}
+.body-register h2{
+  text-align: center;
+}
+form > * {
+  margin-bottom: 5px;
+}
+.container-avatares {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+#avatar-seleccionado {
+  background: linear-gradient(
+    200deg,
+    rgba(106, 73, 191, 0.8911161876860119) 22%,
+    rgba(71, 211, 191, 0.8883150672378326) 100%
+  );
+  padding: 1rem;
+  border-radius: 50% 50%;
+  width: 3.5rem;
+  height: 3.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+
+
+
+
+
+.body-register .form-register {
+  display: flex;
+  flex-direction: column;
+}
+.form-register > input,
+.form-register > button {
+  border: none;
+  border-radius: 1rem;
+  padding: 0.5rem 1rem;
+  outline: none;
+}
+.form-register > *{
+    margin-bottom: 1rem;
+}
+.form-register button {
+  border: 2px solid #6a49bf;
+
+  color: #6a49bf;
+}
+.form-register a {
+  text-align: center;
+}
+
+
+
+footer {
+  position: absolute;
+  bottom: 1rem;
+}

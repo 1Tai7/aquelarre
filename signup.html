@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Secion | Aquelarre</title>
+    <link rel="stylesheet" href="./signup.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap');
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <a href="./home.html" class="header-logo">
+            <img src="./assets/logo-aquellare-app.png" alt="logo-aquelarre">
+            <h1>Aquelarre</h1>
+        </a>
+    </header>
+    <hr>
+    <section class="register-body">
+        <section class="body-register">
+            <h2>Iniciar Sesion</h2>
+            <div class="container-avatares">
+                <span id="avatar-seleccionado"></span>
+             
+                <input type="hidden" id="avatar-guardado">
+            </div>
+            <form class="form-register" action="#" method="post" onsubmit="return validarFormulario()">
+
+                <label for="alias">Alias: </label>
+                <input type="text" id="alias" name="alias" required>
+
+                <label for="contrasena">Contraseña:</label>
+                <input type="password" id="contrasena" name="contrasena" required>
+
+
+                <button type="submit"><strong>Entrar</strong></button>
+                <a href="">Recuperar Contraseña</a>
+            </form>
+        </section>
+    </section>
+    <footer>
+        <span> Aprendiz: <a href="https://github.com/1Tai7">Ilce Garcia</a>
+        </span>
+    </footer>
+
+</body>
+<script src="./home.js"></script>
+
+</html>
